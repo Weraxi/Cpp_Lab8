@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apartment.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="CountryHouse.h" />
+    <ClInclude Include="Owner.h" />
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="tax_rates.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Apartment.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CountryHouse.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Owner.cpp" />
+    <ClCompile Include="Property.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -104,6 +120,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
